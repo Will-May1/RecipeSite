@@ -1,0 +1,17 @@
+/* style.css */
+
+/* Assign headings to elegant Playfair Display */
+h1, h2, h3, h4, h5, h6, .navbar-brand {
+    font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Assign body text and inputs to clean, readable DM Sans */
+body, button, input, select, textarea, .nav-link {
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+    letter-spacing: -0.01em;
+}
+
+/* Custom adjustment for brand text */
+.navbar-brand {
+    letter-spacing: 0.05em;
+}
